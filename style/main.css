@@ -1,3 +1,27 @@
 *{
     font-family: 'Roboto Slab', serif;
 }
+
+
+.card{
+}
+
+
+/* ---- FOOTER ---- */
+footer{
+    background-color: lavender;
+}
+footer div a{
+    display: block;
+}
+footer div a:hover{
+    text-decoration: none;
+}
+
+.fa-laptop-code{
+    color: orange;
+}
+
+.fa-github{
+    color: black;
+}

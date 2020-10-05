@@ -13,6 +13,9 @@
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" />
+    
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -24,65 +27,229 @@
 
 <body>
     <div class="container mt-4">
-        <h1 class="h1"> Curso Fullstack PHP</h1>
+        <h1 class="h1"> Curso Fullstack PHP - Paula Farias</h1>
 
     </div>
 
-    <!-- ----- CONTAINER: CARDS ----- -->
+    <!-- ----- CONTAINER: CARDS ROW 1 ----- -->
     <div class="container mt-4">
-        
-        <!-- ROW: COLLAPSE BUTTONS -->
-        <div class="row">  
 
-            <div class="col">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <button class="btn btn-primary " type="button" data-toggle="collapse" data-target="#actividades_obligatorias" aria-expanded="false" aria-controls="actividades_obligatorias">Actividades Obligatorias</button>
+        <!-- ----- CARDS ----- -->
+        <!-- ROW -->
+        <div class="row">
+            <div class="col text-center">
+                <div class="card h-100">
+                    <div class="text-center">
+                        <img src="style/images/proyectos.jpg" class="card-img-top" alt="Imagen ilustrativa de un proyecto.">
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <button class="btn btn-primary " type="button" data-toggle="collapse" data-target="#proyectos"
+                            aria-expanded="false" aria-controls="proyectos">Proyectos</button>
                     </div>
                 </div>
-            </div>       
+            </div>
 
             <div class="col">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#desafios" aria-expanded="false" aria-controls="desafios">Desafíos</button>
+                <div class="card h-100 ">
+                    <div class="text-center">
+                        <img src="style/images/desafios.png" class="card-img-top" alt="Imagen con la palabra desafíos.">
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#desafios"
+                            aria-expanded="false" aria-controls="desafios">Desafíos</button>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
 
-        <!-- ROW: COLLAPSE CARDS -->
-          <div class="row">
+        <!-- ----- COLLAPSE CARDS: TABLAS ----- -->
+        <!-- ROW -->
+        <div class="row">
 
-        <!-- col: actividades obligatorias -->
+            <!-- col: proyectos -->
+            <div class="col">
+                <div id="proyectos" class="collapse">
+                    <div class="card card-body">
+                        <!-- -- TABLA: PROYECTOS -- -->
+                        <table class="table bg-gradient-primary">
+                            <caption>Actualizado al 05/10/20</caption>
+                            <thead>
+                              <tr class="table-primary">
+                                <th scope="col">Proyecto</th>
+                                <th scope="col">Estado</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="">
+                                <th scope="row">
+                                    <a href="http://cursofullstackphp.foxit.com.ar/comision2014/Paula_Daniela_Farias/bienes_raices/" target="blank">
+                                        Bienes raíces
+                                    </a>
+                                </th>
+                                <td class="text-warning">En proceso</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- col: desafios -->
+            <div class="col">
+                <div id="desafios" class="collapse">
+                    <div class="card card-body">                        
+                        <!-- -- TABLA: DESAFIOS -- -->
+                        <table class="table bg-gradient-primary">
+                            <caption>Actualizado al 05/10/20</caption>
+                            <thead>
+                              <tr class="table-primary">
+                                <th scope="col">Desafío</th>
+                                <th scope="col">Estado</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="">
+                                <th scope="row">
+                                    <a href="" target="blank">
+                                        Google
+                                    </a>
+                                </th>
+                                <td class="text-danger">Pendiente</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ----- CONTAINER: CARDS ROW 2 ----- -->
+    <div class="container mt-4">
+        <!-- ----- CARDS ----- -->
+        <!-- ROW -->
+        <div class="row">
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="text-center">
+                        <img src="style/images/actividades_obligatorias.jpg" class="card-img-top" alt="Palabra Mandatory">
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <button class="btn btn-primary " type="button" data-toggle="collapse"
+                            data-target="#actividades_obligatorias" aria-expanded="false"
+                            aria-controls="actividades_obligatorias">Actividades Obligatorias</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="text-center">
+                        <img src="style/images/actividades_investigacion.jpg" class="card-img-top" alt="Investigando en la web">
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#actividades_investigacion" aria-expanded="false"
+                            aria-controls="actividades_investigacion">Actividades de Investigación</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----- COLLAPSE CARDS ----- -->
+        <!-- ROW -->
+        <div class="row">
+
+            <!-- col: actividades obligatorias -->
             <div class="col">
 
-              <div id="actividades_obligatorias" class="collapse">
-                <div class="card card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                <div id="actividades_obligatorias" class="collapse">
+                    <div class="card card-body">
+                       <!-- -- TABLA: ACTIVIDADES OBLIGATORIAS -- -->
+                       <table class="table bg-gradient-primary">
+                        <caption>Actualizado al 05/10/20</caption>
+                        <thead>
+                          <tr class="table-primary">
+                            <th scope="col">Actividad</th>
+                            <th scope="col">Estado</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="">
+                            <th scope="row">
+                                <a href="http://cursofullstackphp.foxit.com.ar/comision2014/Paula_Daniela_Farias/actividades_obligatorias/act_2_formulario/" target="blank">
+                                    Formulario
+                                </a>
+                            </th>
+                            <td class="text-success">Finalizada</td>
+                          </tr>
+                          <tr class="">
+                            <th scope="row">
+                                <a href="http://cursofullstackphp.foxit.com.ar/comision2014/Paula_Daniela_Farias/actividades_obligatorias/act_3_practicando_css/" target="blank">
+                                    Practicando CSS (cuadrados)
+                                </a>
+                            </th>
+                            <td class="text-success">Finalizada</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div>
                 </div>
-              </div>
 
             </div>
 
-        <!-- col: desafios -->
+            <!-- col: actividades de investigacion -->
             <div class="col">
-              <div id="desafios" class="collapse">
-                <div class="card card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                <div id="actividades_investigacion" class="collapse">
+                    <div class="card card-body">
+                        <!-- -- TABLA: ACTIVIDADES DE INVESTIGACIÓN -- -->
+                       <table class="table bg-gradient-primary">
+                        <caption>Actualizado al 05/10/20</caption>
+                        <thead>
+                          <tr class="table-primary">
+                            <th scope="col">Actividad</th>
+                            <th scope="col">Estado</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="">
+                            <th scope="row">
+                                <a href="http://cursofullstackphp.foxit.com.ar/comision2014/Paula_Daniela_Farias/act_investigacion/act_1/" target="blank">
+                                    Actividad 1
+                                </a>
+                            </th>
+                            <td class="text-success">Finalizada</td>
+                          </tr>
+                          <tr class="">
+                            <th scope="row">
+                                <a href="http://cursofullstackphp.foxit.com.ar/comision2014/Paula_Daniela_Farias/act_investigacion/act_2_videos/" target="blank">
+                                    Actividad 2 - Tablas y Videos
+                                </a>
+                            </th>
+                            <td class="text-success">Finalizada</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                 </div>
-              </div>
             </div>
 
-          </div>
-
-
+        </div>
 
     </div>
 
-
+    <!-- ----- FOOTER ----- -->
+    <footer class=" mt-5 p-4 border">
+        <div class="">
+            <p><i class="fas fa-laptop-code"></i> <b>Develover: Paula Farias</b></p>
+            <a href="https://linkedin.com/in/paulafarias" target="blank"><i class="fab fa-linkedin"></i> Linkedin</a>
+            <a href="https://github.com/pauladanielafarias" target="blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        
+    </footer>
 
 
 
@@ -100,6 +267,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+        
 </body>
 
 </html>
