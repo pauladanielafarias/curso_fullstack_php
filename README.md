@@ -12,6 +12,7 @@
   - CSS3
   - _Complements:_ 
     - Bootstrap
+    - Font Awesome
     - Google Fonts
 
 - **Deployed** on Foxit
