@@ -1,9 +1,9 @@
 # :woman_student: Curso Fullstack PHP - Codo a codo
 
-### Página de inicio que tiene todos los trabajos que realicé en el Curso Fullstack PHP de _Codo a Codo_.
+### Página de inicio que tiene todos los proyectos y trabajos que realicé en el Curso Fullstack PHP de _Codo a Codo_.
 - La página está en español.
 
-#### Home page that has all the work I did at the Fullstack PHP Course from _"Codo a Codo"_.
+#### Home page that has all the projects I did at the Fullstack PHP Course from _"Codo a Codo"_.
 - The website is in Spanish.
 
 ### :computer: Tecnologías utilizadas: 
