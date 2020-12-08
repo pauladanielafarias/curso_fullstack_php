@@ -15,9 +15,7 @@
 #### Home page that has all the projects I did at the Fullstack PHP Course from _"Codo a Codo"_.
 - The website is in Spanish.
 
-
-### :computer: Tecnologías utilizadas: 
-<img align="center" alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/pauladanielafarias/curso_fullstack_php/master?&logo=codefactor&logoColor=green"> <img align="center" alt="GitHub language count" src="https://img.shields.io/github/languages/count/pauladanielafarias/curso_fullstack_php">  <img align="center" alt="GitHub top language" src="https://img.shields.io/github/languages/top/pauladanielafarias/curso_fullstack_php">
+### :computer: Tecnologías utilizadas: <img align="center" alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/pauladanielafarias/curso_fullstack_php/master?&logo=codefactor&logoColor=green"> <img align="center" alt="GitHub language count" src="https://img.shields.io/github/languages/count/pauladanielafarias/curso_fullstack_php">  <img align="center" alt="GitHub top language" src="https://img.shields.io/github/languages/top/pauladanielafarias/curso_fullstack_php">
 
 - **Front-end:** 
   - <img width="2%" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"> HTML5
