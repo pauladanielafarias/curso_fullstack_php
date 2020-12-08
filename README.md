@@ -1,12 +1,11 @@
 <!--Create Badges on https://pufler.dev/git-badges/ and https://shields.io/category/social-->
 
-<img align="right" src="https://badges.pufler.dev/updated/pauladanielafarias/curso_fullstack_php?style=social&color=purple&logo=github">
- <img align="right" src="https://badges.pufler.dev/visits/pauladanielafarias/curso_fullstack_php?style=social&color=purple&logo=github"> <a src="https://github.com/pauladanielafarias/?tab=follow"><img align="right" src="https://img.shields.io/github/followers/pauladanielafarias?label=Follow&style=social"></a> 
+<img align="right" src="https://badges.pufler.dev/updated/pauladanielafarias/curso_fullstack_php?style=social&color=purple&logo=github"> <img align="right" src="https://badges.pufler.dev/visits/pauladanielafarias/curso_fullstack_php?style=social&color=purple&logo=github"> <a src="https://github.com/pauladanielafarias/?tab=follow"><img align="right" src="https://img.shields.io/github/followers/pauladanielafarias?label=Follow&style=social"></a> 
+<br>
 
-<img src="https://badges.pufler.dev/created/pauladanielafarias/curso_fullstack_php?style=flate&color=important&logo=github">
+<img align="right" src="https://badges.pufler.dev/created/pauladanielafarias/curso_fullstack_php?style=flate&color=black&logo=github">
 
-
-# :woman_student: Curso Fullstack PHP - Codo a codo
+# :woman_student: Curso Fullstack PHP - Codo a codo 
 
 <img src="https://img.shields.io/github/repo-size/pauladanielafarias/curso_fullstack_php?style=flat&logo=github">  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pauladanielafarias/curso_fullstack_php">
 
@@ -16,9 +15,9 @@
 #### Home page that has all the projects I did at the Fullstack PHP Course from _"Codo a Codo"_.
 - The website is in Spanish.
 
-### :computer: Tecnologías utilizadas: 
 
-<img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/pauladanielafarias/curso_fullstack_php/master?&logo=codefactor&logoColor=green"> <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/pauladanielafarias/curso_fullstack_php">  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/pauladanielafarias/curso_fullstack_php">
+### :computer: Tecnologías utilizadas: 
+<img align="center" alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/pauladanielafarias/curso_fullstack_php/master?&logo=codefactor&logoColor=green"> <img align="center" alt="GitHub language count" src="https://img.shields.io/github/languages/count/pauladanielafarias/curso_fullstack_php">  <img align="center" alt="GitHub top language" src="https://img.shields.io/github/languages/top/pauladanielafarias/curso_fullstack_php">
 
 - **Front-end:** 
   - <img width="2%" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"> HTML5
@@ -29,11 +28,14 @@
     - <img width="2%" src="https://www.vectorlogo.zone/logos/google/google-icon.svg"> Google Fonts
 
 <!--Create Badge on https://shields.io/category/monitoring-->
-- <img align="center" alt="Website" src="https://img.shields.io/website?url=http%3A%2F%2Fcursofullstackphp.foxit.com.ar%2Fcomision2014%2FPaula_Daniela_Farias"> **Deployed on Foxit** 
+<img align="center" alt="Website" src="https://img.shields.io/website?url=http%3A%2F%2Fcursofullstackphp.foxit.com.ar%2Fcomision2014%2FPaula_Daniela_Farias"> **Deployed on Foxit** 
 
-- **Link:** [Curso Fullstack PHP](http://cursofullstackphp.foxit.com.ar/comision2014/Paula_Daniela_Farias/)
+
+#### :link: **Link:** [Curso Fullstack PHP](http://cursofullstackphp.foxit.com.ar/comision2014/Paula_Daniela_Farias/)
+
 
 #### :woman_technologist: **Developer:** [Paula Farias](https://linkedin.com/in/paulafarias)
+
 
 #### :busts_in_silhouette: Contributors: <img align="center" src="https://badges.pufler.dev/contributors/pauladanielafarias/pauladanielafarias?size=50&padding=5&bots=true">
 
