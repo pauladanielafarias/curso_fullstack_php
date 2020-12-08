@@ -38,4 +38,4 @@
 
 #### :woman_technologist: **Developer:** [Paula Farias](https://linkedin.com/in/paulafarias)
 
-#### :busts_in_silhouette: Contributors: <img align="center" alt="Contributors" src="https://badges.pufler.dev/contributors/pauladanielafarias/pauladanielafarias?size=50&padding=5&bots=true">
+#### :busts_in_silhouette: Contributors: <img align="center" alt="Contributors" src="https://badges.pufler.dev/contributors/pauladanielafarias/curso_fullstack_php?size=50&padding=5&bots=true">
