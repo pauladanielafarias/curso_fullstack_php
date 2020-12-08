@@ -21,11 +21,14 @@
 - **Front-end:** 
   - <img width="2%" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"> HTML5
   - <img width="2%" src="https://github.com/pauladanielafarias/pauladanielafarias/blob/master/images/css3-sm.png"> CSS3
+  <br>
+  
   - **Complements:**
     - <img width="2%" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg"> Bootstrap
     - <img width="2%" src="https://www.vectorlogo.zone/logos/font-awesome/font-awesome-icon.svg"> Font Awesome
     - <img width="2%" src="https://www.vectorlogo.zone/logos/google/google-icon.svg"> Google Fonts
     <br>
+    
 - **Deployed on Foxit** 
 
 <!--Create Badge on https://shields.io/category/monitoring-->
