@@ -7,11 +7,11 @@
 1. [Receta de cocina](receta_cocina): .
 2. [Formulario HTML](formulario_html): .
 3. [Practicando CSS](practicando_css): .
-4. [Bootstrap Cards](front_end/boostrap_cards): .
-5. [Formulario Bootstrap](front_end/formulario_boostrap): .
-6. [Suma JavaScript](front_end/suma_js): .
-7. [Tablas de multiplicar](front_end/tablas_js): .
-8. [Formulario JavaScript](front_end/formulario_js): .
+4. [Bootstrap Cards](boostrap_cards): .
+5. [Formulario Bootstrap](formulario_boostrap): .
+6. [Suma JavaScript](suma_js): .
+7. [Tablas de multiplicar](tablas_js): .
+8. [Formulario JavaScript](formulario_js): .
 
 
 ---
