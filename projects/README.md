@@ -4,8 +4,8 @@
 ---
 #### Ejercicios front-end: HTML, CSS, JavaScript (de básicos a avanzados)
 
-1. [Receta de cocina](receta_cocina): .
-2. [Formulario HTML](formulario_html): .
+1. [Receta de cocina](receta_cocina): Ejercicio de HTML muy simple. Página que contiene una receta.
+2. [Formulario HTML](formulario_html): Página que contiene la estructura de un formulario en HTML.
 3. [Practicando CSS](practicando_css): .
 4. [Bootstrap Cards](boostrap_cards): .
 5. [Formulario Bootstrap](formulario_boostrap): .
