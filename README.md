@@ -11,9 +11,12 @@
 ### Página de inicio que tiene todos los proyectos y trabajos que realicé en el Curso Fullstack PHP de _Codo a Codo_.
 - La página está en español.
 
+También se pueden ver los distintos ejercicios y proyectos que realicé, en mi carpeta de GitHub [proyectos](/proyectos).
+
 #### Home page that has all the projects I did at the Fullstack PHP Course from _"Codo a Codo"_.
 - The website is in Spanish.
 
+You can also see the different exercises and projects that I did, in my GitHub folder [proyectos] (/ proyectos).
 <br>
 
 ### :computer: Tecnologías utilizadas: <img align="center" alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/pauladanielafarias/curso_fullstack_php/master?&logo=codefactor&logoColor=green"> <img align="center" alt="GitHub language count" src="https://img.shields.io/github/languages/count/pauladanielafarias/curso_fullstack_php">  <img align="center" alt="GitHub top language" src="https://img.shields.io/github/languages/top/pauladanielafarias/curso_fullstack_php">
