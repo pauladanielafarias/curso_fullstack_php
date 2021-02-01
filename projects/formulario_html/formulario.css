@@ -1,0 +1,31 @@
+/*----- GENERAL -----*/
+*{
+    background-color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*----- MAIN -----*/
+/*-- TITLE --*/
+h1{
+    text-align: center;
+    color: black;
+}
+
+/*-- FORM --*/
+form{
+    text-align: center;
+}
+form div{
+    display: flex;
+    justify-content: center; 
+}
+
+form div label, form div input {
+    margin: 5px;
+}
+
+.input{
+    text-align: center;
+    margin: 5px;
+    background-color:gainsboro;
+}

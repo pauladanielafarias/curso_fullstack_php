@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+    margin-top: 2vh;
+}
+
+a{
+    color: blue;
+}
+a:hover{
+   color: cornflowerblue; 
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: darkblue;
+    border: 1px solid darkblue;
+    padding: 2px 7px;
+    border-radius: 2px;
+    
+}
+
+
+button:focus{
+    outline: transparent;
+}

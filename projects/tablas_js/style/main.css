@@ -1,0 +1,13 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: azure ;
+}
+p,h2{
+    text-align: center;
+}
+
+h2{
+    color: darkblue;
+    text-decoration: underline;
+}

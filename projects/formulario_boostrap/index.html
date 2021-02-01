@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="encoding" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Form</title>
+    <meta name="autor" content="Paula Farias">
+    <meta name="description"
+        content="Formulario con Bootstrap.">
+    <link rel="shorcut icon" href="style/images/"/>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" />
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/main.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="h1 ml-4 mt-3">Bootstrap Form</h1>
+
+        <form class="m-4 bg-light p-3">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="nombre">Nombre de pila</label>
+                <input type="text" class="form-control" id="nombre" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="apellido">Apellido</label>
+                <input type="text" class="form-control" id="apellido" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="usuario">Nombre de usuario</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">@</div>
+                </div>
+                <input type="text" class="form-control" id="usuario" placeholder="Nombre de usuario" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Correo electrónico <span class="text-muted">(opcional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="direccion">Habla a</label>
+                <input type="text" class="form-control" id="direccion" placeholder="1234 Main St" required>
+              </div>
+              <div class="form-group">
+                <label for="direccion2">Dirección 2 <span class="text-muted">(opcional)</span></label>
+                <input type="text" class="form-control" id="direccion2" placeholder="Apartmento o suite">
+              </div>
+
+
+
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="pais">País</label>
+                <select class="form-control" id="pais" required>
+                    <option selected>Escoger...</option>
+                    <option>🇦🇷 Argentina</option>
+                    <option>🇧🇷 Brasil</option>
+                    <option>🇲🇽 México</option>
+                    <option>🇺🇸 Estados Unidos</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="estado">Estado</label>
+                <select id="estado" class="form-control" required>
+                  <option selected>Escoger...</option>
+                  <option>Brasilia</option>
+                  <option>Buenos Aires</option>
+                  <option>Ciudad de México</option>
+                  <option>Washington D.C.</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="CP">Código Postal</label>
+                <input type="number" class="form-control" id="CP" required>
+              </div>
+            </div>
+
+
+            <div class="form-group border-top border-bottom mt-3">
+              <div class="form-check mt-4">
+                <input class="form-check-input" type="checkbox" id="envio">
+                <label class="form-check-label" for="envio">
+                  La dirección de envío es la misma que mi dirección de facturación.
+                </label>
+              </div>
+              <div class="form-check mb-4">
+                <input class="form-check-input" type="checkbox" id="guardar">
+                <label class="form-check-label" for="guardar">
+                  Guarde esta información para la próxima vez.
+                </label>
+              </div>
+            </div>
+
+          </form>
+
+    </div>
+
+
+
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <!-- POPPER -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

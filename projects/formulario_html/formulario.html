@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso al sistema</title>
+    <meta name="autor" content="Paula Farias">
+    <meta name="description" content="Actividad obligatoria - Clase 2">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <!-- EJERCICIO: 
+        Ingresá en el cuadro de respuesta el código HTML correspondiente para la creación de un formulario web
+        que solicite DNI, Usuario y Clave.
+    -->
+    <main>
+        <h1>Acceso al sistema</h1> <br>
+        <form action="ingreso.html">
+            <div>
+                <label for="dni">DNI:</label><br>
+                <input type="number" id="dni" name="dni" value="" placeholder="DNI sin puntos" required>
+            </div>
+            
+            <div>
+                <label for="usuario">Usuario:</label><br>
+                <input type="text" id="usuario" name="usuario" value="" placeholder="Usuario" required>
+            </div>
+            <div>
+                <label for="usuario">Clave:</label><br>
+                <input type="password" id="clave" name="clave" placeholder="Contraseña" required>
+            </div>
+
+            <input class="input" type="submit" value="Ingresar">
+        </form>
+        
+    </main>
+    
+    
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="encoding" charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paula Farias - Fullstack PHP</title>
+        <meta name="autor" content="Paula Farias">
+        <meta name="description" content="Ejercicio obligatorio JavaScript Unidad 3">
+
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style/main.css">
+    
+    </head>
+<body>
+    
+   <!-- Creación de una página web que cumpla con los siguientes requisitos:
+            a) Un formulario sencillo en html que solicite el ingreso de usuario y clave
+            b) El formulario posea un botón submit con el texto “Ingresar”
+            c) Mediante el uso del evento que se ejecuta en el momento del envío del formulario
+                se valide que los cuadros de texto correspondientes a “usuario y clave” no se encuentren vacíos
+                y que el cuadro de texto del “usuario” incluya un arroba. Si ambos campos no se validan correctamente
+                el formulario no debe enviarse y deberá desplegarse una ventana indicando el motivo por el cual
+                no puede ingresar por ej: “Falta el arroba en el usuario”
+    -->
+    <div id="ingreso_sistema">
+        <h1>Ingreso al sistema</h1>
+        <form id="form" action="form_sent.html">
+            <label for="user">Usuario:</label>
+            <input type="text" name="user" id="user">
+
+            <br>
+            <label for="password">Clave:</label>
+            <input type="password" name="password" id="password">
+        </form>
+        <br>
+
+        <button id="ingresar"> Ingresar</button>
+
+    </div>
+
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>

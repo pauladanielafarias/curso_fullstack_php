@@ -1,0 +1,26 @@
+/*----- GENERAL -----*/
+*{
+    margin: 10px;
+}
+
+/*----- MAIN -----*/
+/*-- BOXES --*/
+div{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.red{
+    font-size: 30px;
+    color: yellow;
+    background-color: red;
+}
+
+.black{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+
