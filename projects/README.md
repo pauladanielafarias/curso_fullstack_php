@@ -1,6 +1,6 @@
 # Ejercicios con HTML, CSS, JavaScript, Bootstrap, PHP, SQL
 
-#### Algunos ejercicios que realicé a partir del curso de <a href='https://www.buenosaires.gob.ar/educacion/codo-codo' target='blank'>Programación Full Stack con PHP</a> brindado por la Codo a Codo 4.0.
+#### Algunos ejercicios que realicé a partir del curso de <a href='https://www.buenosaires.gob.ar/educacion/codo-codo' target='blank'>Programación Full Stack con PHP</a> brindado por el programa Codo a Codo 4.0.
 ---
 #### [FRONT-END](front_end): ejercicios de front-end: HTML, CSS, JavaScript (de básicos a avanzados)
 
